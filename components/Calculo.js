@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function Calculo(props) {
 
     const { valor , porcentagem} = props
-    const aumento = valor * porcentagem/100
-    const total = valor + aumento
+    const aumento = Math.floor(valor) * Math.floor(porcentagem)/100
+    const total = Math.floor(valor) + Math.floor(aumento)
 
   return (
     <View>
