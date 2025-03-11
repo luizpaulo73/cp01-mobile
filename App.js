@@ -13,7 +13,7 @@ export default function App() {
   return (
     <View style={styles.container}>
     <View style={styles.divInput}>
-      <Image source={require('./assets/10310245.png')} style={styles.image}/>
+      <Image source={require('./assets/calc.png')} style={styles.image}/>
         <TextInput
             placeholder="Valor Atual do Produto"
             value={valorAtual}
